@@ -1,0 +1,6 @@
+{
+  "name": "SD Assistant",
+  "description": "Futuristic native Android AI voice assistant powered by Gemini Live with real-time audio streaming, instant interruption, and safe device controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

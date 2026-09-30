@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Sonic Glow Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M 54,26 A 28,28 0 1,0 54,82 A 28,28 0 1,0 54,26"
+        android:strokeColor="#38BDF8"
+        android:strokeAlpha="0.35"
+        android:strokeWidth="1.5" />
+
+    <!-- Pulse Wave 1 -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M 33,46 C 30,50 30,58 33,62 M 75,46 C 78,50 78,58 75,62"
+        android:strokeColor="#00F5D4"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+
+    <!-- Pulse Wave 2 -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M 27,42 C 22,48 22,60 27,66 M 81,42 C 86,48 86,60 81,66"
+        android:strokeColor="#818CF8"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+
+    <!-- Main SD Assistant Core Orb -->
+    <path
+        android:pathData="M 54,34 A 20,20 0 1,0 54,74 A 20,20 0 1,0 54,34">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="34"
+                android:endX="68"
+                android:endY="74"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F5D4" />
+                <item android:offset="0.4" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#8B5CF6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Core Spark -->
+    <path
+        android:pathData="M 54,43 A 11,11 0 1,0 54,65 A 11,11 0 1,0 54,43"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.88" />
+
+    <!-- Assistant Accent Node -->
+    <path
+        android:pathData="M 54,49 A 5,5 0 1,0 54,59 A 5,5 0 1,0 54,49"
+        android:fillColor="#0F172A" />
+</vector>
